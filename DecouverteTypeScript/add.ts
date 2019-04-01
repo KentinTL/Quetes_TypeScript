@@ -1,0 +1,15 @@
+function hello(name: string) {
+     console.log("Hello " + name);
+ }
+
+ let firstName: string = "bob";
+
+ hello(firstName);
+ hello(firstName + " marley");
+
+ function concat(a: string, b: string): string  {
+     return a + b;
+ }
+
+ let wcs: string = concat("Wild", concat("Code", "School"));
+ console.log(wcs); 
